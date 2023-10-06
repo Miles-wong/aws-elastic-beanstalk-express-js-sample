@@ -1,5 +1,5 @@
 pipeline {
-    agent none // 初始阶段不使用docker agent
+    agent none 
     stages {
         stage('Prepare Environment') {
             agent any
